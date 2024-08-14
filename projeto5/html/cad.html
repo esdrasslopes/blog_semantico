@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../css/cad.css">
+</head>
+<body>
+    <header>
+        <h2 class="title">Cadastro</h2>
+      </header>
+
+      <div class="conteiner">
+        <main id="login">
+                <h3>Faça o Cadastro</h3>
+            <form>
+                <input type="text" placeholder="Nome usuário">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Senha">
+                <input type="password" placeholder="Confirma a senha">
+                <a href="index.html" class="sign" onclick="ok()">Cadastrar</a>
+            </form>
+            <p>Ja tem conta?<a href="sign.html" class="go"> Entre</a></p>
+        </main>
+      </div>
+
+      <script>
+        function ok(){
+            alert("Cadastro bem sucedido!")
+        }
+      </script>
+</body>
+</html>
