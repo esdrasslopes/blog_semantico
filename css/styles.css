@@ -179,3 +179,18 @@ footer p{
       flex-direction: column;
   }
 }
+
+@media(max-width:500px){
+  #navbar {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    gap: 10px;
+    
+  }  
+  #navbar-links{
+    display: none;
+
+  }
+}
+
